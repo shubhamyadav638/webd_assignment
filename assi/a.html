@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-commerce Product Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>E-commerce Product Filter</h1>
+
+  <div class="filter-container">
+    <h2>Filter Products</h2>
+    <div class="filter-category">
+      <h3>Category</h3>
+      <label><input type="checkbox" value="watch"> Watch</label>
+      <label><input type="checkbox" value="tablet"> Tablet</label>
+      <label><input type="checkbox" value="monitor"> Monitor</label>
+     
+    </div>
+    <div class="filter-price">
+      <h3>Price</h3>
+      <input type="range" min="1000" max="15000" value="1000" id="price-range">
+      <span id="price-value">Rs. 1000</span>
+    </div>
+  </div>
+
+  <div class="products-container">
+    <h2>Products</h2>
+    <div class="product" data-category="watch" data-price="1599">
+      <img src="img/wat1.jpeg" alt="Watch">
+      <h3>Fire Boltt Ninja 2</h3>
+      <h5>Rs. 1599</h5>
+      <h6>Boltt Store</h6>
+    </div>
+    <div class="product" data-category="tablet" data-price="9270">
+      <img src="img/img3.jpeg" alt="Tablet">
+      <h3>Noise Pulse Go</h3>
+      <h5>Rs. 1300</h5>
+      <h6>Noice Store</h6>
+    </div>
+    <div class="product" data-category="tablet" data-price="9270">
+      <img src="img/pro.webp" alt="Watch">
+      <h3>boAt Xtend Pro</h3>
+      <h5>Rs2799</h5>
+      <h6>Rajesh Watchs</h6>
+    </div>
+    
+    <div class="product" data-category="watch" data-price="13005">
+      <img src="img/le2.jpeg" alt="Watch">
+      <h3>Lenovo Tab MB</h3>
+      <h5>Rs.9270</h5>
+      <h6>Stonhenge Retall</h6>
+    </div>
+    <div class="product" data-category="tablet" data-price="14000">
+      <img src="img/honne.jpeg" alt="Tablet">
+      <h3>Honor PAD XB</h3>
+      <h5>Rs. 12999</h5>
+      <h6>Honor India</h6>
+    </div>
+    <div class="product" data-category="tablet" data-price="14001">
+      <img src="img/ikkala.png" alt="Watch">
+      <h3>IKALL N9</h3>
+      <h5>Rs.3999</h5>
+      <h6>IKALL Store</h6>
+    </div>
+    <div class="product" data-category="tablet" data-price="14002">
+      <img src="img/des11.jpg" alt="Tablet">
+      <h3>Oppo Pad Air</h3>
+      <h5>Rs. 15999</h5>
+      <h6>Oppo Store</h6>
+    </div>
+    <div class="product" data-category="tablet" data-price="14003">
+      <img src="img/a ker.jpeg" alt="Watch">
+      <h3>Acer EK220Q</h3>
+      <h5>Rs.6249</h5>
+      <h6>Accer Store</h6>
+    </div>
+    <div class="product" data-category="tablet" data-price="14002">
+      <img src="img/sum.jpeg" alt="Tablet">
+      <h3>Samsung24</h3>
+      <h5>Rs. 9799</h5>
+      <h6>Somsung Store</h6>
+    </div>
+    <div class="product" data-category="tablet" data-price="14003">
+      <img src="img/zeb.jpeg" alt="Watch">
+      <h3>ZEBRONICS AC32FHD</h3>
+      <h5>Rs.12799</h5>
+      <h6>ZEBRONICS Store</h6>
+    </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

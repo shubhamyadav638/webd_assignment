@@ -1,0 +1,50 @@
+/* Basic styling - adjust to your design */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .filter-container {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .products-container {
+    width: 70%;
+    float: left;
+  }
+  
+  .product {
+    width: 200px;
+    height: 250px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    float: left;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style filters */
+  .filter-category label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .filter-price {
+    text-align: center;
+  }
+  
+  .filter-price #price-range {
+    width: 80%;
+  }
+  
+  .filter-price #price-value {
+    margin-top: 5px;
+  }
